@@ -13,15 +13,9 @@ GREP=/bin/grep
 SLEEP=/bin/sleep
 ECHO=/bin/echo
 
-UNAME=/bin/uname
-WC=/usr/bin/wc
-EXPR=/usr/bin/expr
-UTPROC=/proc/uptime
-
 # variables
 TAG=DISK
 PRIORITY=local0.info
-#HN=`$HOSTNAME -s`
 
 export LOGCMD="$LOGGER -p $PRIORITY -t $TAG"
 
